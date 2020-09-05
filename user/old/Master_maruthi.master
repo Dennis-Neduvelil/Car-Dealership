@@ -1,0 +1,255 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master_maruthi.master.cs" Inherits="Master_maruthi" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+<title>Maruthi Suzuki a Auto Mobile Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<!--theme-style-->
+<link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Wedding Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- start menu -->
+<script src="../js/simpleCart.min.js"> </script>
+<!-- start menu -->
+        <link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+<link href="../css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="../js/memenu.js"></script>
+<script>$(document).ready(function () { $(".memenu").memenu(); });</script>	
+<!-- /start menu -->
+
+  <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+    <body style="background-image:url(../images/pattern.png)">
+<!--header-->	
+<div class="top_bg responsive" >
+	<div class="container">
+		<div class="header_top-sec">
+			<div class="top_right">
+				<ul>
+					<li><a href="#">help</a></li>|
+					<li><a href="../Contact_Us.aspx">Contact</a></li>|
+					<li><a href="../Login.aspx">Track Order</a></li>
+				</ul>
+			</div>
+			<div class="top_left">
+				<ul>
+                    <li class="top_link" id="li_acc" runat="server"><a href="Profile.aspx"><span class="glyphicon glyphicon-user" style="color:#000000;"></span> My Account</a></li>|		
+					<li class="top_link" id="li_lout" runat="server"><a href="../Login.aspx"><span class="glyphicon glyphicon-log-in" style="color:#000000;"></span>Log Out</a></li>|
+                    <li class="top_link" id="li_in" runat="server"><a href="../Login.aspx"><span class="glyphicon glyphicon-log-in" style="color:#000000;"></span>Login</a></li>
+								
+				</ul>
+			</div>
+				<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<div class="header-top" style="margin-left:120px;">
+	 <div class="header-bottom"  >
+			<div>
+				<div class="logo">
+					<a><h1>Maruthi Suzuki</h1></a>
+                    <div></div>
+                    <div>
+                        <div></div>
+                    </div>
+				</div>
+                </div>
+         <div></div>
+			 <!---->
+		  <div class="container">	
+			 <div class="top-nav">
+				<ul class="memenu skyblue"><li class="active"><a href="Home.aspx">Home</a></li>
+					<li class="grid"><a href="gallery.aspx">Gallery</a>
+                        <li class="grid"><a href="Search.aspx">Search</a>
+						<%--<div class="mepanel">
+							<div class="row">
+								<div class="col1 me-one">
+									<h4>Profilo</h4>
+									<ul>
+										
+										<li><a href="gallery.aspx">Gallery</a></li>
+										
+									</ul>
+								</div>
+								<div class="col1 me-one">
+									<h4>Used Cars</h4>
+									<ul>
+										
+										<li><a href="Gallery_User_Car.aspx"> View Gallery</a></li>
+										
+									</ul>	
+								</div>
+								<div class="col1 me-one">
+									<h4>Popular Brands</h4>
+									<ul>
+									
+										<li><a href="product.html">Wood Wood</a></li>
+									</ul>	
+								</div>
+							</div>
+						</div>--%>
+					</li>
+				<li class="grid"><a href="../Accessories/Gallery_Accessories.aspx">Accessory</a></li>
+					<li class="grid"><a href="Gallery_User_Car.aspx">Used Cars</a></li>
+					<li class="grid" id="mybook" runat="server"><a href="My_Booking.aspx">My Bookings</a></li>
+                    
+				</ul>
+
+
+
+
+				<div class="clearfix"> </div>
+			 </div>
+			 <!---->
+			 
+            
+
+			 <div class="clearfix"> </div>
+			 <!---->			 
+			 </div>
+			<div class="clearfix"> </div>
+	  </div>
+</div>
+        <%--<div class="banner">
+            <div class="container">
+            </div>
+        </div>--%>
+
+
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+
+         <div class="container" id="divArrival" runat="server">
+
+
+             <script type="text/javascript">
+                 $(window).load(function () {
+                     $("#flexiselDemo1").flexisel({
+                         visibleItems: 4,
+                         animationSpeed: 1000,
+                         autoPlay: true,
+                         autoPlaySpeed: 3000,
+                         pauseOnHover: true,
+                         enableResponsiveBreakpoints: true,
+                         responsiveBreakpoints: {
+                             portrait: {
+                                 changePoint: 480,
+                                 visibleItems: 1
+                             },
+                             landscape: {
+                                 changePoint: 640,
+                                 visibleItems: 2
+                             },
+                             tablet: {
+                                 changePoint: 768,
+                                 visibleItems: 3
+                             }
+                         }
+                     });
+                 });
+                    </script>
+                    <script type="text/javascript" src="../js/jquery.flexisel.js"></script>
+
+        
+         </div>
+        <div class="shoping">
+	 <div class="container">
+		 <div class="shpng-grids">
+			 <div class="col-md-4 shpng-grid">
+				 <h3>Free Shipping</h3>
+				 <p>On Order Over 1</p>
+			 </div>
+			 <div class="col-md-4 shpng-grid">
+				 <h3>Order Return</h3>
+				 <p>Return Within 5 Months</p>
+			 </div>
+			 <div class="col-md-4 shpng-grid">
+				 <h3>COD</h3>
+				 <p>Cash On Delivery</p>
+			 </div>
+			 <div class="clearfix"></div>
+		 </div>
+	 </div>
+</div>
+<!---->
+<div class="footer">
+	 <div class="container">
+		 <div class="ftr-grids">
+			 <div class="col-md-3 ftr-grid">
+				 <ul>
+					 <li><a href="#">REACH US</a></li>
+					 
+					 <li><a href="#">3097 SALES OUTLETS</a></li>
+					 <li><a href="#">3339 SERVICE WORKSHOPS</a></li>
+					 <li><a href="#">AS ON 1 JAN 2018</a></li>
+                     <li><a href="#">1800 102 1800</a></li>
+                     <li><a href="Contact_Us.aspx">Contact Us</a></li>				 
+				 </ul>
+			 </div>
+             <div class="col-md-3 ftr-grid">
+				 <ul>
+					 <li><a href="#">MARUTI SUZUKI ARENA</a></li>
+					 
+					 <li><a href="#">Nexa</a></li>
+					 <li><a href="#">True Value</a></li>
+					 <li><a href="#">Commercial</a></li>
+                     <li><a href="Contact_Us.aspx">Contact Us</a></li>				 
+				 </ul>>
+			 </div>
+			 <div class="col-md-3 ftr-grid">
+				 <ul>
+					 <li><a href="#">MORE FROM US</a></li>
+					 
+					 <li><a href="#">Maruti Driving School</a></li>
+					 <li><a href="#">Maruti Finance</a></li>
+					 <li><a href="#">Maruti Insurance</a></li>
+                      <li><a href="#">Maruti AutoCard</a></li>
+					 <li><a href="#">Maruti Genuine Accessories</a></li>	
+                     <li><a href="#">Maruti Genuine Parts</a></li>
+                     <li><a href="#">Maruti Suzuki Leasing</a></li>
+                     <li><a href="#">Institutional Customers</a></li>
+                     <li><a href="Contact_Us.aspx">Contact Us</a></li>				 
+				 </ul>
+			 </div>
+			 
+			 <div class="col-md-3 ftr-grid">
+				 <h4>Categories</h4>
+				 <ul>
+					 <li><a href="#"> New Cars</a></li>
+					 <li><a href="#"> Order Car</a></li>
+					 <li><a href="#"> Gallery</a></li>
+					 <li><a href="#"> Used Cars</a></li>
+					 <li><a href="#">> Search</a></li>
+					 <li><a href="#">...More</a></li>					 
+				 </ul>
+			 </div>
+			 <div class="clearfix"></div>
+		 </div>		
+	 </div>
+</div>
+<!---->
+ <div class="copywrite">
+	 <div class="container">
+			 <p>Copyright © 2018 Maruthi Suzuki. All Rights Reserved | Design by Dennis</p>
+		 </div>
+</div>		 
+
+</body>
+</html>
