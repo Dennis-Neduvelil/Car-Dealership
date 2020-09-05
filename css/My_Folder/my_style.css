@@ -1,0 +1,18 @@
+﻿body {
+    background:#fff;
+	font-family: 'Lato', sans-serif;
+}
+.new_ver_img {
+    width: 135%;
+    height: 250px;
+     margin-top:3em;
+    border-style:solid;
+    border-width:3px;
+    border-color:#4a4a49;
+    margin-bottom:3em;
+}
+    .new_ver_img im-responsive {
+         width: 120%;
+    height: 300px;
+   
+    }
